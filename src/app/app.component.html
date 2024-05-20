@@ -1,1 +1,9 @@
-<h1>Hello World</h1>
+<img
+  class="image"
+  (click)="onLogoClicked()"
+  width="1000"
+  height="520"
+  ngSrc="./assets/images/image3.jpeg"
+  alt="main image"/>
+<input type="text" (keyup)="onKeyUp(inputElement.value)" class="demo" #inputElement/>
+<h1>Text is : {{title}}</h1>

@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular-Deep-Dive';
+  onLogoClicked() {
+    alert('image clicked')
+  }
+  onKeyUp(inputText: string) {
+    this.title = inputText;
+  }
 }
